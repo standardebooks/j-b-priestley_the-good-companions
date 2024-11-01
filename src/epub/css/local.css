@@ -1,0 +1,103 @@
+@charset "utf-8";
+@namespace epub "http://www.idpf.org/2007/ops";
+
+/* Centered dedications */
+section[epub|type~="dedication"]{
+	text-align: center;
+}
+
+section[epub|type~="dedication"] > *{
+	display: inline-block;
+	margin: auto;
+	margin-top: 3em;
+	max-width: 80%;
+}
+
+@supports(display: flex){
+	section[epub|type~="dedication"]{
+		align-items: center;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		min-height: calc(98vh - 3em);
+		padding-top: 3em;
+	}
+
+	section[epub|type~="dedication"] > *{
+		margin: 0;
+	}
+}
+/* End centered dedications */
+
+section[epub|type~="dedication"] p{
+	font-style: italic;
+}
+
+section[epub|type~="dedication"] p b{
+	font-style: normal;
+}
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:song"] p,
+[epub|type~="z3998:verse"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:song"] p > span,
+[epub|type~="z3998:verse"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:song"] p > span + br,
+[epub|type~="z3998:verse"] p > span + br{
+	display: none;
+}
+
+#chapter-2-1 blockquote{
+	font-style: italic;
+}
+
+#chapter-2-1 blockquote header p{
+	text-indent: 0;
+}
+
+[epub|type~="z3998:salutation"],
+[epub|type~="z3998:signature"],
+#chapter-2-1 blockquote header p:last-child{
+	font-variant: small-caps;
+}
+
+#chapter-2-7 blockquote{
+	margin: 0;
+}
+
+#chapter-2-7 [epub|type~="z3998:letter"] header p:first-child{
+	font-style: italic;
+	margin-bottom: 1em;
+}
+
+#chapter-2-7 [epub|type~="z3998:letter"] header p + p{
+	text-align: right;
+}
+
+#chapter-2-7 [epub|type~="z3998:letter"] header p[epub|type~="z3998:salutation"]{
+	text-align: initial;
+}
+
+[epub|type~="z3998:salutation"] + p{
+	text-indent: 0;
+}
+
+[epub|type~="z3998:postscript"]{
+	margin-top: 1em;
+	text-align: initial;
+	text-indent: 0;
+}
