@@ -8,8 +8,8 @@ abbr[epub|type~="se:era"]{
 
 section[epub|type~="titlepage"] h1,
 section[epub|type~="titlepage"] p,
-section[epub|type~="colophon"] h3,
-section[epub|type~="imprint"] h3{
+section[epub|type~="colophon"] h2,
+section[epub|type~="imprint"] h2{
 	left: -999em;
 	position: absolute;
 }

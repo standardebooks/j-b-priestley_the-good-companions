@@ -31,8 +31,8 @@ blockquote{
 }
 
 h1,
+h2,
 h3,
-h4,
 h4,
 h5,
 h6,
@@ -46,27 +46,27 @@ hgroup{
 	text-align: center;
 }
 
-/* simulate h4 in an hgroup */
-hgroup h3 + p{
+/* simulate h3 in an hgroup */
+hgroup h2 + p{
 	font-size: 1.17em;
 }
 
 /* simulate h4 in an hgroup */
-hgroup h3 + p + p,
-hgroup h4 + p{
+hgroup h2 + p + p,
+hgroup h3 + p{
 	font-size: 1em;
 }
 
 /* simulate h5 in an hgroup */
-hgroup h3 + p + p + p,
-hgroup h4 + p + p,
+hgroup h2 + p + p + p,
+hgroup h3 + p + p,
 hgroup h4 + p{
 	font-size: .83em;
 }
 
 /* simulate h6 in an hgroup */
-hgroup h3 + p + p + p + p,
-hgroup h4 + p + p + p,
+hgroup h2 + p + p + p + p,
+hgroup h3 + p + p + p,
 hgroup h4 + p + p,
 hgroup h5 + p{
 	font-size: .67em;
@@ -86,8 +86,8 @@ hgroup > p{
 }
 
 p.continued,
+h2 + p,
 h3 + p,
-h4 + p,
 h4 + p,
 h5 + p,
 h6 + p,
