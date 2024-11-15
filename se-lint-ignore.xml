@@ -24,6 +24,12 @@
 			<reason>Matched text is a drawn-out phrase.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-3-2.xhtml">
+		<ignore>
+			<code>t-008</code>
+			<reason>Matched text is dialect.</reason>
+		</ignore>
+	</file>
 	<file path="chapter-3-3.xhtml">
 		<ignore>
 			<code>t-017</code>
