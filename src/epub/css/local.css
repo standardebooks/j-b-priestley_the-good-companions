@@ -84,8 +84,12 @@ p span.i1{
 	font-variant: small-caps;
 }
 
-#chapter-2-7 blockquote{
+#chapter-2-7 [epub|type~="z3998:letter"]{
 	margin: 0;
+}
+
+#chapter-2-7-9 [epub|type~="z3998:letter"]{
+	margin-top: 1em;
 }
 
 #chapter-2-7 [epub|type~="z3998:letter"] header p:first-child{
