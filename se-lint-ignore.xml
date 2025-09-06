@@ -11,14 +11,10 @@
 			<code>t-007</code>
 			<reason>Title is the name of a play.</reason>
 		</ignore>
-	</file>
-	<file path="chapter-2-6.xhtml">
 		<ignore>
 			<code>t-017</code>
 			<reason>Title is the name of a play.</reason>
 		</ignore>
-	</file>
-	<file path="chapter-2-6.xhtml">
 		<ignore>
 			<code>y-001</code>
 			<reason>Matched text is a drawn-out phrase.</reason>
