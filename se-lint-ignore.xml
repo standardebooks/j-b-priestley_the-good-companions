@@ -1,40 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
 	<file path="chapter-1-4.xhtml">
-		<ignore>
-			<code>s-023</code>
+		<ignore code="s-023">
 			<reason>Title is dialect and casing is correct.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-2-6.xhtml">
-		<ignore>
-			<code>t-007</code>
+		<ignore code="t-007">
 			<reason>Title is the name of a play.</reason>
 		</ignore>
-		<ignore>
-			<code>t-017</code>
+		<ignore code="t-017">
 			<reason>Title is the name of a play.</reason>
 		</ignore>
-		<ignore>
-			<code>y-001</code>
+		<ignore code="y-001">
 			<reason>Matched text is a drawn-out phrase.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-3-2.xhtml">
-		<ignore>
-			<code>t-008</code>
+		<ignore code="t-008">
 			<reason>Matched text is dialect.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-3-3.xhtml">
-		<ignore>
-			<code>t-017</code>
+		<ignore code="t-017">
 			<reason>Title is the name of a play.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-3-4.xhtml">
-		<ignore>
-			<code>y-001</code>
+		<ignore code="y-001">
 			<reason>Matched text is a drawn-out phrase.</reason>
 		</ignore>
 	</file>
