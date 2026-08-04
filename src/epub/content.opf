@@ -43,7 +43,7 @@
 		<meta id="collection-1" property="belongs-to-collection">James Tait Black Memorial Fiction Prize Winners</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">11</meta>
-		<dc:abstract>Three unlikely travelers cross paths with a struggling musical troupe, and the whole group decides to tour together.</dc:abstract>
+		<meta property="schema:abstract">Three unlikely travelers cross paths with a struggling musical troupe, and the whole group decides to tour together.</meta>
 		<dc:description>
 			&lt;p&gt;Jess Oakroyd is a middle-aged factory worker, Elizabeth Trant is the aimless daughter of a recently deceased colonel, and Inigo Jollifant is a bored schoolmaster. The three of them, unhappy with the directions of their lives, each strike out on journeys to clear their minds and do something new.&lt;/p&gt;
 			&lt;p&gt;After a picaresque opening in which each of these three characters engages in various adventures, they all happen to cross paths with the Dinky Doos, a “concert party”—a type of traveling musical vaudeville show—who feel like their act needs to be shaken up. They all join forces to form a new act called the Good Companions, and set out to make their fortune on the road in an era where radio and the motion picture were becoming larger and larger features of the cultural milieu.&lt;/p&gt;
